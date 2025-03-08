@@ -13,12 +13,10 @@
   "explorer.openEditors.visible": 100,
   "editor.acceptSuggestionOnCommitCharacter": false,
   "editor.renderLineHighlight": "none",
-
   "window.restoreWindows": "all",
   "window.newWindowDimensions": "inherit",
   "editor.autoIndent": "full",
   "editor.tabCompletion": "on",
-
   "editor.acceptSuggestionOnEnter": "off",
   "files.exclude": {
     "**/tmp/**": true,
@@ -32,7 +30,6 @@
   "files.autoSaveDelay": 0,
   "editor.scrollbar.verticalScrollbarSize": 5,
   "editor.scrollbar.horizontalScrollbarSize": 5,
-  "window.titleBarStyle": "custom",
   "window.closeWhenEmpty": false,
   "editor.mouseWheelScrollSensitivity": 0,
   "editor.wordSeparators": "./\\()\"':,.;<>~!@#%^&*|+=[]{}`~?",
@@ -53,7 +50,6 @@
   "html.format.preserveNewLines": true,
   "html.format.wrapLineLength": 600,
   "html.format.wrapAttributes": "auto",
-
   "editor.codeActionsOnSave": {
     "source.fixAll.eslint": "explicit",
     "source.fixAll.tslint": "never"
@@ -65,8 +61,6 @@
     "**Library": true,
     "~/Library**": true
   },
-  "helium-icon-theme.saturation": 0,
-  "helium-icon-theme.opacity": 0.8,
   "search.quickOpen.history.filterSortOrder": "recency",
   "editor.minimap.enabled": true,
   "workbench.editor.limit.value": 20,
@@ -74,39 +68,17 @@
   "eslint.lintTask.enable": true,
   "eslint.run": "onSave",
   "extensions.ignoreRecommendations": true,
-  "workbench.colorCustomizations": {
-    "scrollbar.shadow": "#ffffff00",
-    "widget.shadow": "#ffffff00",
-    "editor.selectionBackground": "#da70d655",
-    "editor.selectionHighlightBackground": "#4b2e51FC",
-    "editor.wordHighlightBackground": "#6940c5FC",
-    "editor.wordHighlightStrongBackground": "#6940c5FC",
-    "quickInputList.focusBackground": "#6940c5FC",
-    "editorLineNumber.foreground": "#666666aa",
-    "editorLineNumber.activeForeground": "#ddd",
-    "sideBar.foreground": "#777777",
-    "sideBar.border": "#444444",
-    "scrollbarSlider.background": "#444444",
-    "minimap.findMatchHighlight": "#4b2e51FC",
-    "editor.wordHighlightTextBackground": "#4b2e51FC",
-    "editor.findMatchBackground": "#9652a4fc",
-    "editor.findMatchHighlightBackground": "#4b2e51FC"
-  },
   "editor.linkedEditing": true,
   "editor.codeLens": true,
   "terminal.integrated.fontFamily": "'Liga SFMono Nerd Font', 'SFMono', 'Roboto Mono', 'Fira Code', 'Victor Mono', 'Cascadia Code', 'JetBrains Mono', 'Dank Mono', 'Consolas', 'Liberation Mono', 'Menlo', 'Courier New', monospace",
-  "terminal.integrated.fontSize": 10,
+  "terminal.integrated.fontSize": 12,
   "terminal.integrated.lineHeight": 1,
   "terminal.integrated.enablePersistentSessions": false,
   "editor.accessibilitySupport": "off",
-
   "editor.inlineSuggest.enabled": true,
-  "github.copilot.enable": {
-    "*": true,
-    "plaintext": true,
-    "markdown": true,
-    "scminput": false,
-    "yaml": true
+  "[prisma]": {
+    "editor.defaultFormatter": "Prisma.prisma",
+    "editor.formatOnSave": true
   },
   "security.workspace.trust.banner": "never",
   "security.workspace.trust.enabled": false,
@@ -115,14 +87,22 @@
   "editor.bracketPairColorization.enabled": true,
   "editor.guides.bracketPairs": true,
   "terminal.explorerKind": "external",
-
   "editor.wordWrap": "on",
-  "workbench.colorTheme": "Github Purple",
   "[python]": {
     "editor.formatOnType": true
   },
-  "workbench.activityBar.location": "hidden",
-  "workbench.iconTheme": "material-icon-theme",
   "typescript.updateImportsOnFileMove.enabled": "always",
-  "code-runner.runInTerminal": true
+  "code-runner.runInTerminal": true,
+  "git.openRepositoryInParentFolders": "never",
+  "github.copilot.enable": {
+    "*": true,
+    "plaintext": false,
+    "markdown": false,
+    "scminput": false
+  },
+  "github.copilot.selectedCompletionModel": "",
+  "workbench.colorTheme": "Github Purple",
+  "workbench.iconTheme": "helium-icon-theme",
+  "git.enableSmartCommit": true,
+  "javascript.updateImportsOnFileMove.enabled": "always"
 }
